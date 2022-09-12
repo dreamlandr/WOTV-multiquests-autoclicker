@@ -1,0 +1,35 @@
+#!/bin/sh
+# Confirm Embark
+Ix=825
+Iy=500
+
+# Formation 1st Multi battle guest
+Ox=700
+Oy=525
+
+# Reload multi quests
+Rx=2200
+Ry=225
+
+# Battle Settings
+Tx=275
+Ty=500
+
+# Accept Friend / Apply
+Ux=825
+Uy=625
+
+# Close quest details
+Xx=1200
+Xy=50
+
+# Quest Details
+Yx=1250
+Yy=75
+
+Zx=2350
+Zy=150
+
+# Embark
+Spacex=1225
+Spacey=675
