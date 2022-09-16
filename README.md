@@ -18,7 +18,6 @@ Dependencies:
 <br>
 
 ## Usage instructions:
----
 All files must be on the same folder  
 * Insert into the `variables` or `varcel` files the coordinates of the buttons described in the files, you can use either one or both if you use more than one device (I might provide a visual guide in the future)
 * Connect to the device running the game using adb (this is outside the scope of this guide, my recommended resource is: https://manpages.ubuntu.com/manpages/bionic/man1/adb.1.html)
