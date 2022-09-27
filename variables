@@ -1,7 +1,7 @@
 #!/bin/sh
 # Command delay time
 sleeptime=0.3
-doubletime=1.3
+doubletime=1.5
 
 # Confirm Embark
 Ix=825

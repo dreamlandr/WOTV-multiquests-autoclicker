@@ -19,22 +19,20 @@ while true; do
         # O
         input tap $Ox $Oy;
         sleep $sleeptime;
-        # Z
+        # Y
         input tap $Yx $Yy; 
         sleep $doubletime;
         # Space
         input tap $Spacex $Spacey;
-        sleep $sleeptime;
+        sleep $doubletime;
         # Space
         input tap $Spacex $Spacey;
         sleep $sleeptime;
         # I
         input tap $Ix $Iy;
-        # Back
-        # input keyevent 4;
+        sleep $sleeptime;
+        # X
         input tap $Xx $Xy;
         sleep $sleeptime;
-        # O
-        #input tap $Ox $Oy;
-        #sleep $sleeptime;"
+    "
 done;
