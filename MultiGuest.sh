@@ -17,7 +17,7 @@ esac
 # echo "Starting Multi Guest"
 
 while true; do
-    for i in 1 2 3 4 5 ; do 
+    # for i in 1 2 3 4 5 ; do 
         adb shell "
             # T
             input tap $battleSettingsX $battleSettingsY; 
@@ -39,7 +39,7 @@ while true; do
             input tap $closeDetailsX $closeDetailsY;
             sleep $sleeptime;
             "
-    X
-    adb shell input tap $closeDetailsX $closeDetailsX;
-    sleep $sleeptime;
+    # X
+    # adb shell input tap $closeDetailsX $closeDetailsX;
+    # sleep $sleeptime;
 done;
