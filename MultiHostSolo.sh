@@ -15,11 +15,9 @@ case $1 in
 esac
 
 while true; do
-adb shell "
-    # I
-    input tap $confirmX $confirmY;
-    # embark
-    input tap $embarkX $embarkY;
-    # U
-    input tap $applyX $applyY;"
+    adb shell "
+        input tap $confirmX $confirmY;
+        input tap $embarkX $embarkY;
+        input tap $applyX $applyY;
+    "
 done;

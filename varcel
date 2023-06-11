@@ -31,6 +31,10 @@ closeDetailsY=100
 questDetailsX=2100
 questDetailsY=125
 
+# Raid Re-embark
+reEmbarkX=625
+reEmbarkX=575
+
 ZX=2350
 ZY=150
 
