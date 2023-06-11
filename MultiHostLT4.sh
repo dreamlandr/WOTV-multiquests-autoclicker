@@ -17,22 +17,22 @@ esac
 while true; do
     adb shell "
         # O
-        input tap $Ox $Oy;
+        input tap $formationX $formationY;
         sleep $sleeptime;
         # Y
-        input tap $Yx $Yy; 
+        input tap $questDetailsX $questDetailsY; 
         sleep $doubletime;
-        # Space
-        input tap $Spacex $Spacey;
+        # embark
+        input tap $embarkX $embarkY;
         sleep $doubletime;
-        # Space
-        input tap $Spacex $Spacey;
+        # embark
+        input tap $embarkX $embarkY;
         sleep $sleeptime;
         # I
-        input tap $Ix $Iy;
+        input tap $confirmX $confirmY;
         sleep $sleeptime;
         # X
-        input tap $Xx $Xy;
+        input tap $closeDetailsX $closeDetailsY;
         sleep $sleeptime;
     "
 done;

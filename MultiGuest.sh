@@ -20,22 +20,26 @@ while true; do
     for i in 1 2 3 4 5 ; do 
         adb shell "
             # T
-            input tap $Tx $Ty; 
+            input tap $battleSettingsX $battleSettingsY; 
             sleep $sleeptime;
             # Y
-            input tap $Yx $Yy; 
+            input tap $questDetailsX $questDetailsY; 
             sleep $sleeptime;
-            # Space
-            input tap $Spacex $Spacey;
+            # embark
+            input tap $embarkX $embarkY;
             sleep $sleeptime;
-            # Space
-            input tap $Spacex $Spacey;
+            # embark
+            input tap $embarkX $embarkY;
             sleep $sleeptime;
             # U
-            input tap $Ux $Uy; 
-            sleep $sleeptime;"
-    done;
-    # X
-    adb shell input tap $Xx $Xy;
+            input tap $applyX $applyY; 
+            sleep $sleeptime;
+            sleep $sleeptime;
+            sleep $sleeptime;
+            input tap $closeDetailsX $closeDetailsY;
+            sleep $sleeptime;
+            "
+    X
+    adb shell input tap $closeDetailsX $closeDetailsX;
     sleep $sleeptime;
 done;

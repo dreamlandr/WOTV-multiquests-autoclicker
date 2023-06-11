@@ -17,9 +17,9 @@ esac
 while true; do
 adb shell "
     # I
-    input tap $Ix $Iy;
-    # Space
-    input tap $Spacex $Spacey;
+    input tap $confirmX $confirmY;
+    # embark
+    input tap $embarkX $embarkY;
     # U
-    input tap $Ux $Uy;"
+    input tap $applyX $applyY;"
 done;

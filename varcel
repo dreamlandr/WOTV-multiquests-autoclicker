@@ -1,39 +1,39 @@
 #!/bin/sh
 # Command delay time
-sleeptime=0.1
+sleeptime=0.0001
 doubletime=1
 
 # Confirm Embark
-Ix=1450
-Iy=800
+confirmX=1450
+confirmY=800
 
 # Formation 1st Multi battle guest
-Ox=1200
-Oy=800
+formationX=1200
+formationY=800
 
 # Reload multi quests
-Rx=2200
-Ry=225
+RX=2200
+RY=225
 
 # Battle Settings
-Tx=600
-Ty=775
+battleSettingsX=600
+battleSettingsY=775
 
 # Accept Friend / Apply
-Ux=1500
-Uy=1000
+applyX=1500
+applyY=1000
 
 # Close quest details
-Xx=2000
-Xy=100
+closeDetailsX=2000
+closeDetailsY=100
 
 # Quest Details
-Yx=2100
-Yy=125
+questDetailsX=2100
+questDetailsY=125
 
-Zx=2350
-Zy=150
+ZX=2350
+ZY=150
 
 # Embark
-Spacex=2000
-Spacey=1000
+embarkX=2000
+embarkY=1000

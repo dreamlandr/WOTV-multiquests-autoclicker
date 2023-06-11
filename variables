@@ -4,36 +4,36 @@ sleeptime=0.3
 doubletime=1.5
 
 # Confirm Embark
-Ix=825
-Iy=500
+confirmX=825
+confirmY=500
 
 # Formation 1st Multi battle guest
-Ox=700
-Oy=525
+formationX=700
+formationY=525
 
 # Reload multi quests
-Rx=2200
-Ry=225
+RX=2200
+RY=225
 
 # Battle Settings
-Tx=275
-Ty=500
+battleSettingsX=275
+battleSettingsY=500
 
 # Accept Friend / Apply
-Ux=825
-Uy=625
+applyX=825
+applyY=625
 
 # Close quest details
-Xx=1200
-Xy=50
+closeDetailsX=1200
+closeDetailsY=50
 
 # Quest Details
-Yx=1250
-Yy=75
+questDetailsX=1300
+questDetailsY=75
 
-Zx=2350
-Zy=150
+ZX=2350
+ZY=150
 
 # Embark
-Spacex=1225
-Spacey=675
+embarkX=1225
+embarkY=675
