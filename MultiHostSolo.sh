@@ -3,10 +3,10 @@ trap "exit 0" 0 1 2 3 9 15 ERR
 
 case $1 in
     cel)
-        source $(dirname $BASH_SOURCE)/varcel
+        source $(dirname $(readlink -f $0))/varcel
         ;;
     emu)
-        source $(dirname $BASH_SOURCE)/variables
+        source $(dirname $(readlink -f $0))/variables
         ;;
     *)
         echo Not a valid platform;

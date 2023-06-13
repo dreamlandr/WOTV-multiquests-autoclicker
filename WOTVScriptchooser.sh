@@ -19,35 +19,35 @@ while true; do
     esac
 
     case $SCRIPT in
-        " 1") $(dirname $BASH_SOURCE)/MultiGuest.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Running Multi Guest" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
+        " 1") $(dirname $(readlink -f $0))/MultiGuest.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Running Multi Guest" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
             then
                 kill $(jobs -p);
             else
                 kill 0;
             fi
             ;;
-        " 2") $(dirname $BASH_SOURCE)/MultiHostSolo.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Running Multi Host Solo" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
+        " 2") $(dirname $(readlink -f $0))/MultiHostSolo.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Running Multi Host Solo" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
             then
                 kill $(jobs -p);
             else
                 kill 0;
             fi
             ;;
-        " 3") $(dirname $BASH_SOURCE)/MultiHostLT4.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Running Multi Host <= 4" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
+        " 3") $(dirname $(readlink -f $0))/MultiHostLT4.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Running Multi Host <= 4" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
             then
                 kill $(jobs -p);
             else
                 kill 0;
             fi
             ;;
-        " 4") $(dirname $BASH_SOURCE)/MultiHost4.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Running Multi Host 4" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
+        " 4") $(dirname $(readlink -f $0))/MultiHost4.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Running Multi Host 4" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
             then
                 kill $(jobs -p);
             else
                 kill 0;
             fi
             ;;
-        " 5") $(dirname $BASH_SOURCE)/RaidAuto.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Raid Auto" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
+        " 5") $(dirname $(readlink -f $0))/RaidAuto.sh $PLATFORM & if whiptail --title "WOTV Script runner" --yesno "Raid Auto" --yes-button "Stop and return to Main Menu" --no-button "Quit" 20 100 0;
             then
                 kill $(jobs -p);
             else
